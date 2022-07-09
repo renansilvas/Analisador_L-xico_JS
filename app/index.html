@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="Analisador.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+   
+    <body>
+        <header>
+            <div class="caixa">
+                
+                <h1 class="titulo"><img class="logo" src="img.png">Analisador Léxico</h1>
+            </div>
+        </header>
+        <main>
+            <div id="area">
+                <form id="formulario">
+                  <fieldset>
+                    <legend>Digita uma sentença:</legend>
+                    <label></label><input type="text" class="msg" required></input><br>
+                    <button type="button" class="btn_limpar"> Limpar</button>
+                    <button type="button" class="btn_submit"> Analisar</button><br>
+                    <label>Resultado:</label><br><textarea class="resultado" rows="5" cols="30"></textarea>
+                  </fieldset>
+                </form>
+              </div>
+        </main>
+        <script src="renderer.js"></script>
+    </body>
+
+</html>
